@@ -1,0 +1,40 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: file212 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\21989\AppData\Local\Temp\RSP6AA.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/file212.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\C语言：MyProjects\入门练习\test212（疑：结构变量地址作为函数参数传递（与一般的结构体变量函数传递不同，这里是地址传递））\file212.c"
+]
+Creating command line "cl.exe @C:\Users\21989\AppData\Local\Temp\RSP6AA.tmp" 
+Creating temporary file "C:\Users\21989\AppData\Local\Temp\RSP6AB.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/file212.pdb" /debug /machine:I386 /out:"Debug/file212.exe" /pdbtype:sept 
+".\Debug\file212.obj"
+]
+Creating command line "link.exe @C:\Users\21989\AppData\Local\Temp\RSP6AB.tmp"
+<h3>Output Window</h3>
+Compiling...
+file212.c
+D:\C语言：MyProjects\入门练习\test212（疑：结构变量地址作为函数参数传递（与一般的结构体变量函数传递不同，这里是地址传递））\file212.c(10) : error C2146: syntax error : missing ')' before identifier 'stu'
+D:\C语言：MyProjects\入门练习\test212（疑：结构变量地址作为函数参数传递（与一般的结构体变量函数传递不同，这里是地址传递））\file212.c(10) : error C2061: syntax error : identifier 'stu'
+D:\C语言：MyProjects\入门练习\test212（疑：结构变量地址作为函数参数传递（与一般的结构体变量函数传递不同，这里是地址传递））\file212.c(10) : error C2059: syntax error : ';'
+D:\C语言：MyProjects\入门练习\test212（疑：结构变量地址作为函数参数传递（与一般的结构体变量函数传递不同，这里是地址传递））\file212.c(10) : error C2059: syntax error : ')'
+D:\C语言：MyProjects\入门练习\test212（疑：结构变量地址作为函数参数传递（与一般的结构体变量函数传递不同，这里是地址传递））\file212.c(11) : error C2449: found '{' at file scope (missing function header?)
+D:\C语言：MyProjects\入门练习\test212（疑：结构变量地址作为函数参数传递（与一般的结构体变量函数传递不同，这里是地址传递））\file212.c(16) : error C2059: syntax error : '}'
+D:\C语言：MyProjects\入门练习\test212（疑：结构变量地址作为函数参数传递（与一般的结构体变量函数传递不同，这里是地址传递））\file212.c(33) : warning C4013: 'out' undefined; assuming extern returning int
+D:\C语言：MyProjects\入门练习\test212（疑：结构变量地址作为函数参数传递（与一般的结构体变量函数传递不同，这里是地址传递））\file212.c(34) : warning C4013: 'in' undefined; assuming extern returning int
+执行 cl.exe 时出错.
+
+
+
+<h3>Results</h3>
+file212.exe - 1 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
